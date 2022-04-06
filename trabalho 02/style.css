@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(135deg, #222d3c 0, #232936 8.33%, #222530 16.67%, #202129 25%, #1d1c21 33.33%, #181819 41.67%, #121311 50%, #070d05 58.33%, #000600 66.67%, #000000 75%, #000000 83.33%, #000000 91.67%, #000000 100%);
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: red;
+}
+
+.cabecalho-links{
+    background-color: white;
+    display: flex-start;
+
+
+}
+.secao-cabecalho{
+    align-items: space-evenly;
+    background-color: white;
+    grid-gap: 10px 15px;
+    justify-content: space-between;
+}
+
+#imagem-logo {
+  padding-inline-end: 10px;
+
+    
+
+}
+
+h3{
+    color: green;
+    font-size: ;
+}
